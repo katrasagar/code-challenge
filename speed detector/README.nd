@@ -1,0 +1,18 @@
+#Speeding Demerit Points Calculator
+This is a simple JavaScript program to calculate demerit points for speeding violations.
+
+
+##How it Works
+The program takes the speed of a car as input (in kilometers per hour) and calculates the demerit points based on the following rules:
+
+The speed limit is set to 70 km/h.
+For every 5 km/h over the speed limit, one demerit point is issued.
+If the calculated demerit points exceed 12, the license is suspended.
+If the speed is within the speed limit, the program prints "Ok".
+If the demerit points exceed the maximum limit, the program prints "License suspended".
+Otherwise, it prints the number of demerit points.
+
+###How to Use
+Run the program.
+Enter the speed of the car when prompted (in km/h).
+The program will then calculate and display the demerit points or any relevant messages.
